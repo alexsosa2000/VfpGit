@@ -1,0 +1,13 @@
+VfpGit
+
+El objetivo de este proyecto es facilitar el uso de Git para almacenar versiones de programas desarrollados con Visual FoxPro. El proyecto en sí está desarrollado con VFP.
+
+VFP guarda muchos de su datos de diseño en tablas binaras tales como formas (scx/sct), librerias de clases (vcx/vct) etc.
+
+Aunque GIT es capaz de almacenar versiones de esos archivos binarios, no puede realizar merges y por lo tanto no es tan útil como pudiera ser. El mojor enfoque es convertir los archivos binarios a archivos de texto y hacer tracking con GIT de éstos y no aquellos. Eso es lo que VFP hacía con source safe.
+
+El proyecto VfpGit se centra en desarrollar una clase que contiene el comportamiento necesario. Una vez esta clase se haya terminado, se hará una forma para darle un interfaz gráfico amigable.
+
+Agradezco tu ayuda, consejos, crítica, difusión y apoyo en general. El proyecto se ofrece sin restricciones para su uso y modificación en la tradición de Visual FoxPro.
+
+Alejandro A. Sosa
