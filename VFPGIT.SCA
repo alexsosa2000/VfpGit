@@ -1,0 +1,136 @@
+SCCTEXT Version 4.0.0.2
+PLATFORM C(8,0),UNIQUEID C(10,0),TIMESTAMP N(10,0),CLASS M(4,0),CLASSLOC M(4,0),BASECLASS M(4,0),OBJNAME M(4,0),PARENT M(4,0),PROPERTIES M(4,0),PROTECTED M(4,0),METHODS M(4,0),OBJCODE M(4,0),OLE M(4,0),OLE2 M(4,0),RESERVED1 M(4,0),RESERVED2 M(4,0),RESERVED3 M(4,0),RESERVED4 M(4,0),RESERVED5 M(4,0),RESERVED6 M(4,0),RESERVED7 M(4,0),RESERVED8 M(4,0),USER M(4,0)
+1252
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] Screen    
+[START RESERVED1]
+VERSION =   3.00[END RESERVED1]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _3WQ0K9K8S
+[CLASS] dataenvironment
+[BASECLASS] dataenvironment
+[OBJNAME] Dataenvironment
+[START PROPERTIES]
+DataSource = .NULL.
+Height = 0
+Left = 0
+Name = "Dataenvironment"
+Top = 0
+Width = 0
+[END PROPERTIES]
+[START RESERVED2]
+1[END RESERVED2]
+[START RESERVED4]
+1[END RESERVED4]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _3WQ0K9K8T
+[CLASS] form
+[BASECLASS] form
+[OBJNAME] Form
+[START PROPERTIES]
+Caption = "Form"
+DoCreate = .T.
+Height = 428
+Left = 0
+Name = "Form"
+Top = 0
+Width = 831
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _3WQ0KYJ3S
+[CLASS] checkbox
+[BASECLASS] checkbox
+[OBJNAME] chkPjxOnly
+[PARENT] Form
+[START PROPERTIES]
+Alignment = 0
+Caption = "Solo seguir la pista a archivos en el Proyecto"
+Height = 16
+Left = 31
+Name = "chkPjxOnly"
+Top = 124
+Width = 263
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _3WQ0KYJ3U
+[CLASS] commandbutton
+[BASECLASS] commandbutton
+[OBJNAME] cmdFindPjx
+[PARENT] Form
+[START PROPERTIES]
+Caption = "Buscar..."
+Height = 25
+Left = 732
+Name = "cmdFindPjx"
+Top = 120
+Width = 60
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _3WQ0KYJ3R
+[CLASS] label
+[BASECLASS] label
+[OBJNAME] Label1
+[PARENT] Form
+[START PROPERTIES]
+Alignment = 2
+Caption = "My Git"
+FontName = "Lucida Bright"
+FontSize = 16
+Height = 37
+Left = 275
+Name = "Label1"
+Top = 24
+Width = 325
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _3WQ0KYJ3V
+[CLASS] label
+[BASECLASS] label
+[OBJNAME] Label2
+[PARENT] Form
+[START PROPERTIES]
+Alignment = 1
+Caption = "Proyecto:"
+Height = 16
+Left = 330
+Name = "Label2"
+Top = 124
+Width = 61
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] WINDOWS 
+[UNIQUEID] _3WQ0KYJ3T
+[CLASS] textbox
+[BASECLASS] textbox
+[OBJNAME] Text1
+[PARENT] Form
+[START PROPERTIES]
+Height = 25
+Left = 396
+Name = "Text1"
+Top = 120
+Width = 325
+[END PROPERTIES]
+
+[ RECORD]
+[PLATFORM] COMMENT 
+[UNIQUEID] RESERVED  
+[START PROPERTIES]
+Arial, 0, 9, 5, 15, 12, 32, 3, 0
+[END PROPERTIES]
+[EOF]
